@@ -1,0 +1,11 @@
+{
+  "title": "Github Repository Dispatch",
+  "version": "0.0.1",
+  "summary": "A small helper module to trigger a Github event called repository_dispatch.",
+  "author": "Daniel Stutz, Thomas Aull",
+  "href": "https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event",
+  "autoload": true,
+  "singular": true,
+  "requires": ["PHP>=7.2.0", "ProcessWire>=3.0.123"],
+  "installs": ["LazyCron"]
+}
